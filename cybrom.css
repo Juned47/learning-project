@@ -1,0 +1,152 @@
+*{margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+}  
+header{
+    background-image:url(img2.jpg);
+    height:950px;
+    background-size:900px 950px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0px;
+    margin: auto 40px;
+    display: flex;
+    flex-direction: column;
+
+} 
+ul{
+    float: right;
+    list-style-type: style type none;
+    margin-top:-20px;
+    min-height: 400px;
+    margin-right: 250px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+   text-decoration: none; 
+   color: white;
+   padding: 5px ;
+   border: 1px solid transparent;
+   transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color:rgb(from color r g b);
+    color: blue;
+}
+ul li.Home a{
+    background-color: color(from color srgb r g b);
+    color: blue;
+}
+.icon{width: 200px;
+    margin-top: 10px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-left: 5px;
+}
+.searchBox{
+    color: rgb(from color r g b);
+    border: none;
+}
+.searchBar{
+    background: transparent;
+    color: white;
+}
+h1{margin-top: 230px;
+    margin-left: 20px;
+    justify-content: center;
+color: white;
+font-family: font awesome ;
+}
+h3{margin-right: 280px;
+        color: white;
+    justify-content: center;
+
+}
+.one{align-items: center;
+    margin-left: 300px;
+}
+.btn{width: 200px;
+    margin-left: 100px;
+    font-size: small;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+text-size-adjust: 5px;
+padding: 10px;
+box-shadow: 3px;
+text-decoration: black;
+}
+.con{color: black;
+    width: 200px;
+   margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+text-size-adjust: 5px;
+padding: 10px;
+box-shadow: brown;
+}
+.statement{
+    size: 400px;
+    margin-top: 0px;
+    color: black;  
+    background-color: transparent; 
+    margin-left: 10px;
+}
+.statement h3{
+    display: flex;
+    color: red;
+    justify-content: center;
+    margin-left: 100px; 
+    margin-top: 20px;
+}
+.statement h1{
+    color: black;
+    margin-top: 10px;
+}
+.statement h4{
+    margin-top: 10px;
+}
+.tick{
+    width:500px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+justify-items: center;
+    
+    
+}
+.abo{
+    width: 450px;
+    margin-top: 10px;
+    height: 400px;
+   /* border: 5px solid black;*/
+    
+}
+.big{
+    width: 1000px;
+    /*border: 2px solid black;*/
+    margin-left: 280px;
+    display: flex;
+}
+.read{
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.imgbig{
+    display: flex;
+    height: 400px;
+    width: 200px;
+    margin-top: 10px;
+}
